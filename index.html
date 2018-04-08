@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box_top">
+            <div class="box_meny">
+			    <input type="button" value="Edit" id="editBtn">
+                <input type="button" value="B" id="bold">
+                <input type="button" value="I" id="italic">
+                <input type="button" value="U" id="underline">
+                <select name="" id="font_size">
+    				<option value="7pt">7pt</option>
+    				<option value="8pt">8pt</option>
+    				<option value="9pt">9pt</option>
+    				<option value="10pt">10pt</option>
+    				<option value="11pt">11pt</option>
+    				<option value="12pt">12pt</option>
+    				<option value="14pt">14pt</option>
+    				<option value="16pt">16pt</option>
+    				<option value="18pt">18pt</option>
+    				<option value="20pt">20pt</option>
+    				<option value="30pt">30pt</option>
+    				<option value="40pt">40pt</option>
+    			</select>
+                <select name="" id="font_family">
+    				<option value="Comic Sans MS">Comic Sans MS</option>
+    				<option value="Times New Roman">Times New Roman</option>
+    				<option value="Arial">Arial</option>
+    				<option value="Helvetica">Helvetica</option>
+    				<option value="Comic Sons MS">Comic Sons MS</option>
+    				<option value="Tahoma">Tahoma</option>
+    				<option value="Verdana">Verdana</option>
+    				<option value="Geneva">Geneva</option>
+    				<option value="Trebuchet MS">Trebuchet MS</option>
+    				<option value="Inpact">Inpact</option>
+    				<option value="Charcoal">Charcoal</option>
+    				<option value="Gadget">Gadget</option>
+    			</select>
+                <input type="button" value="Color" id="color">
+                <input type="button" value="Backgroung" id="background">
+                <label for=""><input type="radio" name="pozition_text" value="left" checked>Left</label>
+                <label for=""><input type="radio" name="pozition_text" value="center">Center</label>
+                <label for=""><input type="radio" name="pozition_text" value="right">Right</label>
+            </div>
+            <div class="box_meny_edit">
+                <input type="button" value="save">
+                <input type="button" value="creat tablet">
+                <input type="button" value="creat list">
+            </div>
+			
+        </div>
+        <div class="box_battom">
+            <div id="edit_display">
+                <p id="edit_display_bol">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nam atque ex aperiam nulla suscipit libero eos ea necessitatibus fugiat.<br> Repudiandae, culpa distinctio! At fugit illum, provident perferendis esse beatae? Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Quidem ad porro, vel sunt. Rem, eveniet, quas. At suscipit, perferendis, earum cupiditate alias ad? <br> dignissimos, dolores ipsam ratione est molestiae. Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Laborum quos eligendi pariatur, <br>nostrum porro doloribus reiciendis amet sapiente vero minima quia, vel, ad impedit dicta error ex fugiat asperiores vitae!</p>
+            </div>
+            <div id="container">
+                <span class='block'></span>
+                <span class='block'></span>
+                <span class='block'></span>
+                <span class='block'></span>
+                <span class='block'></span>
+                <span class='block'></span>
+                <span class='block'></span>
+                <span class='block'></span>
+                <span class='block'></span>
+            </div>
+            <div class="box_background" id="box_background">
+               <input type="button" value="Background" id="click_background">
+			   
+                <div id="containerB">
+                    <span class='block1' id="0"></span>
+                    <span class='block1' id="1"></span>
+                    <span class='block1' id="2"></span>
+                    <span class='block1' id="3"></span>
+                    <span class='block1' id="4"></span>
+                    <span class='block1' id="5"></span>
+                    <span class='block1' id="6"></span>
+                    <span class='block1' id="7"></span>
+                    <span class='block1' id="8"></span>
+                </div>
+				<input type="file" id='fileLoad'>
+            </div>
+            <div id="editCont">
+                <textarea name="" id="editBox" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/mainjs.js"></script>
+</body>
+
+</html>
